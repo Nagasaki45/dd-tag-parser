@@ -10,7 +10,7 @@ Tags parser for [deep_disfluency](https://github.com/dsg-bielefeld/deep_disfluen
 
     > import dd_tag_parser
     >
-    > dd_tag_parser('<e/><tc/><diact type="b"/>')
+    > dd_tag_parser.parse('<e/><tc/><diact type="b"/>')
     [
 	{
 	    'tag': 'e',
